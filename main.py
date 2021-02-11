@@ -1,8 +1,14 @@
 def guessing(min_num, max_num):
+    """
+    Function is computing next guest
+    """
     result = int(((max_num - min_num)/2)+min_num)
     return result
 
 def answer():
+    """
+    Function is waiting for an answer from user
+    """
     while True:
         while True:
             result = input("Choose an answer: 1 - 'Too much', 2 - 'Too little', 3 - 'You guessed!'")
