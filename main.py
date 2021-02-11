@@ -1,6 +1,6 @@
 def guessing(min_num, max_num):
     """
-    Function is computing next guest
+    Function is computing next guess
     """
     result = int(((max_num - min_num)/2)+min_num)
     return result
